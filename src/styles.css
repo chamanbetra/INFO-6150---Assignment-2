@@ -175,6 +175,7 @@ figcaption {
     color: #fff;
     padding: 10px;
     visibility: hidden;
+    overflow: hidden;
     opacity: 1;
     transition: visibility 0s, opacity 0.5s linear;
   }
@@ -184,8 +185,6 @@ figcaption {
     opacity: 1;
   }
 
-  
-  
 @media only screen and (max-width: 800px)
 {
     .project-container
@@ -216,7 +215,6 @@ figcaption {
     width: 250px;
     border-radius: 125px;
     float: left;
-
 }
 
 hr
